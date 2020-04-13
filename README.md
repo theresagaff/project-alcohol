@@ -1,80 +1,13 @@
-# Write your headline here
+# The dangers of alcohol in social isolation
 
-### Write your nutgraf here
+### As the pandemic shuts Americans in their homes, the temptation to drink can be irresistible. The internet abounds with memes about drinking away the boredom. One popular tweet read: “There is no longer AM and PM. There is just ‘coffee time’ and ‘wine time.’” It’s a dangerous time for those with alcohol addictions—a population already with a low rate of seeking treatment.
 
-Make sure your pitch answers the following questions:
+### In the United States, thousands of people die from alcohol-abuse related conditions each year. Many of the top conditions involve sustained liver damage, but others involve specific incidents and the dangers of being impaired from alcohol.
 
-- Why this story is relevant ("So what?) and why now?
-- What is the single question your story tries to answer?
-- Why will this story resonate with your audience?
+More on this topic:
 
-What else has been done on this topic (provide links)? How is your angle different or fresh?
+- [With Meetings Banned, Millions Struggle to Stay Sober On Their Own (NYT)](https://www.nytimes.com/2020/03/26/health/coronavirus-alcoholics-drugs-online.html)
+- [People Who Have Addictions Face Increasing Isolation Amid Pandemic (NPR)](https://www.npr.org/2020/04/11/832360546/people-who-have-addictions-face-increasing-isolation-amid-pandemic)
+- [The Allure and Anxiety of Drinking Alone in Quarantine (Grubstreet)](https://www.grubstreet.com/2020/04/solo-drinking-wine-coronavirus-quarantine.html)
 
-- [Related headline (NYT)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
-- [Related headline (NPR)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
-- [Related headline (WNYC)](https://www.nytimes.com/2020/03/09/upshot/coronavirus-oil-prices-bond-yields-recession.html)
-
-Describe how and where you found the data with links. Put the raw data (csv, xls, pdf) in a folder called `data` in this folder, and provide a [link](https://docs.google.com/spreadsheets/d/1IdeVJv7SpbKwD1jMfOlXvIpx-ZwitU-3Y6c4iLqGu7c/edit#gid=1257216346) to your Google Sheet. Show your data work in this Google Sheet – this could be sorting, aggregating, filtering, pivot tables, vlookups, etc.
-
-Write up at least one or up to three findings from your analysis based on the data you found.
-
-- Finding 1
-- Finding 2
-- Finding 3
-
-Who are some potential human sources you could reach out to for more info?
-
-What is the maximum (best) story possible? What's the minimum (fallback) story if your hypothesis doesn't prove out?
-
-## How to publish and submit your project
-
-1. Make sure you have navigated to your `data-journalism` folder with your terminal first. Clone a fresh copy of this template.
-
-   ```
-   git clone git@github.com:JOUR73351/google-sheets-project.git NAME-OF-YOUR-PROJECT-HERE
-   ```
-
-2. Remove my git tracking from the project
-
-   ```
-   rm -rf .git
-   ```
-
-3. Create a new repository on GitHub called `NAME-OF-YOUR-PROJECT-HERE` with the following settings.
-   <br>
-   <img src="assets/newrepo.png" width="500">
-
-4. Run these git commands to initialize the repo. Make sure you've checked `ssh`.
-
-   ```
-   git init
-   git add -A
-   git commit -m "first commit"
-   git remote add origin git@github.com:YOUR-USERNAME-HERE/YOUR-REPO-HERE.git
-   git push -u origin master
-   ```
-
-5. Write your pitch in `README.md`.
-
-6. Write your story in and add your assets and charts to `index.html`. Feel free to play around with and change the styles in `style.css`, but you are not required to. Delete the code that you don't need for your story. The story itself should be no less than 150 words and include at least one chart from Datawrapper. You can embed a Datawrapper chart in your story by copying the embed code into your html as I have done in `index.html.`
-   <br>
-   <img src="assets/datawrapper.png" width="500">
-
-7. You can preview a local version of your story by running a python server.
-
-   ```
-   python -m SimpleHTTPServer 8000
-   ```
-
-   Then, navigate to `http://localhost:8000` in your browser.
-
-8. To save a version of your story on GitHub, run the following git commands.
-
-   ```
-   git add -A
-   git commit -m "YOUR-COMMIT-MESSAGE-HERE"
-   git push
-   ```
-
-9. To publish, go to the settings of your GitHub repo, scroll down to GitHub Pages, and configure the source to the master branch.
-   ![GitHub Pages](assets/ghpages.png)
+Data for this story came from the [CDC](https://chronicdata.cdc.gov/Alcohol-Related-Disease-Impact/Alcohol-Attributable-Deaths-due-to-Excessive-Alcoh/yqqr-a7uy).
